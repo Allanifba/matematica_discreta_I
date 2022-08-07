@@ -20,7 +20,7 @@ while True:
     num_str = input('Digite o número na base b: ')                                                      #(10)
     base = int(input('Digite a base b no qual o número está: '))                                        #(11)
     resposta=base_to_dec(num_str,base)                                                                  #(12)
-    print('**************************************SAÍDA DE DADOS**************************************')                             #(idem 10)
+    print('**************************************SAÍDA DE DADOS**************************************') #(idem 10)
     print(f'A conversão de {num_str} na base {base} para a base 10 é {resposta}.')                      #(13)
     print('\n                       Autoria: Allan de Sousa Soares - IFBA VDC                        ')
     print('             Canal: https://www.youtube.com/c/MatematicaParaGenteGrande\n')
