@@ -1,4 +1,6 @@
+#Programa que converte um número na base 10 para uma base b, n não maior que 36.
 #Leia os COMENTÁRIOS de cada linha marcada com #(*) ao final do código.
+
 
 def dec_to_base(num,base):                          #(1)
     base_num = ""                                   #(2)
