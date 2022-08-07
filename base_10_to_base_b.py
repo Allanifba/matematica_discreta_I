@@ -25,7 +25,7 @@ print('Canal: https://www.youtube.com/c/MatematicaParaGenteGrande\n')
 
 '''
 *********************************************COMENTÁRIOS*********************************************
-(1) Corresponde à função que executará o processo de conversão quando chamada.
+(1) Corresponde à função que executará o processo de conversão quando chamada. 
 (2) Campo vazio para receber uma string (palavra, letra)
 (3) Comando que repetirá um processo enquanto('while') uma condição for atendida
 (4) 'dig' recebe o resto da divisão de 'num' por 'base'
