@@ -20,7 +20,7 @@ print('*************************************ENTRADA DE DADOS********************
 num = int(input('Digite um número na base 10: '))                                                   #(10)
 base = int(input('Digite a base a qualquer deseja converter o número: '))                           #(idem 10)
 resposta=dec_to_base(num,base)                                                                      #(11)
-print('************************SAÍDA DE DADOS************************')                             #(idem 10)
+print('**************************************SAÍDA DE DADOS**************************************') #(idem 10)
 print(f'A conversão de {num} na base 10 para a base {base} é {resposta}.')                          #(12)
 print('\n             Autoria: Allan de Sousa Soares - IFBA VDC             ')
 print('Canal: https://www.youtube.com/c/MatematicaParaGenteGrande\n')
