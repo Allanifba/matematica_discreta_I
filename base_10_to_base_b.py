@@ -31,8 +31,10 @@ print('Canal: https://www.youtube.com/c/MatematicaParaGenteGrande\n')
 (2) Campo vazio para receber uma string (palavra, letra)
 (3) Comando que repetirá um processo enquanto('while') uma condição for atendida
 (4) 'dig' recebe o resto da divisão de 'num' por 'base'
-(5) O if se divide em duas parte. (5.1) caso o valor encontrado no passo anterior seja menor que 10
-    ele é tomando como uma string normalmente (10 como palavra); (5.2) caso ele seja igual ou maior
+(5) O 'if' se divide em duas partes: 
+    (5.1) caso o valor encontrado no passo anterior seja menor que 10
+    ele é tomando como uma string normalmente (10 como palavra)
+    (5.2) caso ele seja igual ou maior
     que 10 então ele é repassado para uma das letras A, B, C,... Por exemplo, 
                 A + 13 - 10 = A + 3 = D
 (6) Repete o processo com o novo quociente
