@@ -13,7 +13,6 @@ while True:
             res=hex(int(x,b) + int(y,b))
             print('Soma = ',res[2:])
 
-
     def prod(x,y,b):
         x = str(x)
         y = str(y)
@@ -67,6 +66,7 @@ while True:
             res_q=hex(int(int(x,b)/int(y,b)))
             res_r=hex(int(int(x,b)%int(y, b)))
             print('Elementos da Divisão: ',f'q = {res_q[2:]}, r = {res_r[2:]}')
+            
     print('\n****************************************DESCRIÇÃO*****************************************')
     print('Programa que calcula a soma, a subtração, o produto e a divisão de dois números x e y em\n'
           'uma das bases 2, 8 ou 16. ')
