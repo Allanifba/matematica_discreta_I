@@ -26,30 +26,30 @@ while True:
             res=hex(int(x,b)*int(y,b))
             print('Produto = ',res[2:])
 
-    def sub(x,y,b):
+       def sub(x, y, b):
         x = str(x)
         y = str(y)
         if b == 2:
-            if x>=y:
-                res=bin(int(x,b) - int(y,b))
-                print('Subtração = ',res[2:])
+            if x >= y:
+                res = bin(int(x, b) - int(y, b))
+                print('Subtração = ', res[2:])
             else:
                 res = bin(int(y, b) - int(x, b))
-                print('Subtração = -',res[2:])
+                print('Subtração = -', res[2:])
         if b == 8:
             if x >= y:
                 res = oct(int(x, b) - int(y, b))
-                print('Subtração = ',res[2:])
+                print('Subtração = ', res[2:])
             else:
                 res = oct(int(y, b) - int(x, b))
-                print('Subtração = -',res[2:])
+                print('Subtração = -', res[2:])
         if b == 16:
             if x >= y:
                 res = hex(int(x, b) - int(y, b))
-                print('Subtração = ',res[2:])
+                print('Subtração = ', res[2:])
             else:
                 res = hex(int(y, b) - int(x, b))
-                print('Subtração = -',res[2:])
+                print('Subtração = -', res[2:])
 
     def div(x,y,b):
         x = str(x)
