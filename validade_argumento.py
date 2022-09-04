@@ -4,8 +4,7 @@ import ttg
 
 while True:
     print('\n******************************************DESCRIÇÃO********************************************')
-    print('Programa que fornece a tabela verdade de uma proposição lógica e a classifica em Tautologia, \n'
-          'Contingência ou Contradição.')
+    print('Programa que fornece a tabela verdade de um argumento e o classifica em válido ou não válido.\n')
     print('***************************************ENTRADA DE DADOS****************************************')
     print("[1] Use qualquer letra para indicar uma proposição, como por exemplo, p, q, r,...\n"
           "[2] Os operadores lógicos são indicados por:\n"
